@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/SoftwarePortfolio/static/css/main.fedfaa35.css",
+    "main.js": "/SoftwarePortfolio/static/js/main.5956dc11.js",
+    "static/js/787.c3f7bbd5.chunk.js": "/SoftwarePortfolio/static/js/787.c3f7bbd5.chunk.js",
+    "static/media/Inter-Bold.woff": "/SoftwarePortfolio/static/media/Inter-Bold.b755d2e570b1329b527d.woff",
+    "static/media/Inter-ExtraBold.woff": "/SoftwarePortfolio/static/media/Inter-ExtraBold.b10df6acf0d5f64b6b2b.woff",
+    "static/media/Inter-SemiBold.woff": "/SoftwarePortfolio/static/media/Inter-SemiBold.945e781bc80fb04da8ee.woff",
+    "static/media/Inter-Medium.woff": "/SoftwarePortfolio/static/media/Inter-Medium.19051ee52164b5e67119.woff",
+    "static/media/Inter-ExtraLight.woff": "/SoftwarePortfolio/static/media/Inter-ExtraLight.2aab02712763e8b71387.woff",
+    "static/media/Inter-Light.woff": "/SoftwarePortfolio/static/media/Inter-Light.29452bea57e381e3ecbb.woff",
+    "static/media/Inter-Black.woff": "/SoftwarePortfolio/static/media/Inter-Black.6d9cd60f106b28fda484.woff",
+    "static/media/Inter-Thin.woff": "/SoftwarePortfolio/static/media/Inter-Thin.932fc329a069059cff4d.woff",
+    "static/media/Inter-Regular.woff": "/SoftwarePortfolio/static/media/Inter-Regular.2e3d2d89837bafe0fcb2.woff",
+    "bom/bom.xml": "/SoftwarePortfolio/bom/bom.xml",
+    ".well-known/sbom": "/SoftwarePortfolio/.well-known/sbom",
+    "bom/bom.json": "/SoftwarePortfolio/bom/bom.json",
+    "static/media/InterWeight-500.otf": "/SoftwarePortfolio/static/media/InterWeight-500.c3b895e2a1ceab2d731d.otf",
+    "index.html": "/SoftwarePortfolio/index.html",
+    "main.fedfaa35.css.map": "/SoftwarePortfolio/static/css/main.fedfaa35.css.map",
+    "main.5956dc11.js.map": "/SoftwarePortfolio/static/js/main.5956dc11.js.map",
+    "787.c3f7bbd5.chunk.js.map": "/SoftwarePortfolio/static/js/787.c3f7bbd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fedfaa35.css",
+    "static/js/main.5956dc11.js"
+  ]
+}
