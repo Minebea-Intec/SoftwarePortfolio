@@ -8,7 +8,7 @@
       {
         "vendor": "@cyclonedx",
         "name": "cyclonedx-library",
-        "version": "6.0.0",
+        "version": "6.1.2",
         "externalReferences": [
           {
             "url": "https://github.com/CycloneDX/cyclonedx-javascript-library/issues",
@@ -30,7 +30,7 @@
       {
         "vendor": "@cyclonedx",
         "name": "webpack-plugin",
-        "version": "3.8.2",
+        "version": "3.8.3",
         "externalReferences": [
           {
             "url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin/issues",
@@ -52,11 +52,10 @@
     ],
     "component": {
       "type": "application",
-      "name": "fusion-auth",
-      "group": "@minebea",
-      "version": "0.1.0",
-      "bom-ref": "pkg:npm/%40minebea/fusion-auth@0.1.0",
-      "purl": "pkg:npm/%40minebea/fusion-auth@0.1.0",
+      "name": "SoftwarePortfolio",
+      "version": "0.0.0",
+      "bom-ref": "pkg:npm/SoftwarePortfolio@0.0.0",
+      "purl": "pkg:npm/SoftwarePortfolio@0.0.0",
       "externalReferences": [
         {
           "url": "https://Minebea-Intec.github.io/SoftwarePortfolio",
@@ -69,10 +68,76 @@
   "components": [
     {
       "type": "library",
+      "name": "hast-util-parse-selector",
+      "version": "4.0.0",
+      "bom-ref": "BomRef.53f08m8jvog.pq5dis9ivk8",
+      "author": "Titus Wormer",
+      "description": "hast utility to create an element from a simple CSS selector",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hast-util-parse-selector/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hast-util-parse-selector.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hast-util-parse-selector#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hastscript",
+      "version": "8.0.0",
+      "bom-ref": "BomRef.bad63kad878.br6ph9ukfio",
+      "author": "Titus Wormer",
+      "description": "hast utility to create trees",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hastscript@8.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hastscript.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hastscript/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hastscript.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hastscript#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "runtime",
       "group": "@babel",
-      "version": "7.22.11",
-      "bom-ref": "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
+      "version": "7.23.5",
+      "bom-ref": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
       "author": "The Babel Team",
       "description": "babel's modular runtime helpers",
       "licenses": [
@@ -82,7 +147,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
+      "purl": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
       "externalReferences": [
         {
           "url": "https://github.com/babel/babel/issues",
@@ -138,8 +203,8 @@
       "type": "library",
       "name": "hmi",
       "group": "@minebea",
-      "version": "0.3.0-alpha.351",
-      "bom-ref": "pkg:npm/%40minebea/hmi@0.3.0-alpha.351",
+      "version": "1.1.0-alpha.53",
+      "bom-ref": "pkg:npm/%40minebea/hmi@1.1.0-alpha.53",
       "author": "Minebea Intec GmbH",
       "description": "Minebea Intec reusable WEB-HMI",
       "licenses": [
@@ -149,7 +214,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40minebea/hmi@0.3.0-alpha.351"
+      "purl": "pkg:npm/%40minebea/hmi@1.1.0-alpha.53"
     },
     {
       "type": "library",
@@ -357,8 +422,8 @@
       "type": "library",
       "name": "toolkit",
       "group": "@reduxjs",
-      "version": "1.9.5",
-      "bom-ref": "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+      "version": "1.9.7",
+      "bom-ref": "pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
       "author": "Mark Erikson",
       "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
       "licenses": [
@@ -368,7 +433,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+      "purl": "pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
       "externalReferences": [
         {
           "url": "https://github.com/reduxjs/redux-toolkit/issues",
@@ -391,8 +456,8 @@
       "type": "library",
       "name": "router",
       "group": "@remix-run",
-      "version": "1.8.0",
-      "bom-ref": "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+      "version": "1.13.1",
+      "bom-ref": "pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
       "author": "Remix Software",
       "description": "Nested/Data-driven/Framework-agnostic Routing",
       "licenses": [
@@ -402,7 +467,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+      "purl": "pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
       "externalReferences": [
         {
           "url": "https://github.com/remix-run/react-router/issues",
@@ -2072,8 +2137,8 @@
     {
       "type": "library",
       "name": "dayjs",
-      "version": "1.11.9",
-      "bom-ref": "pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git",
+      "version": "1.11.10",
+      "bom-ref": "pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git",
       "author": "iamkun",
       "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
       "licenses": [
@@ -2083,7 +2148,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git",
+      "purl": "pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git",
       "externalReferences": [
         {
           "url": "https://github.com/iamkun/dayjs/issues",
@@ -2333,6 +2398,39 @@
     },
     {
       "type": "library",
+      "name": "estree-util-is-identifier-name",
+      "version": "3.0.0",
+      "bom-ref": "pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git",
+      "author": "Titus Wormer",
+      "description": "Check if something can be an ecmascript (javascript) identifier name",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/estree-util-is-identifier-name/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/estree-util-is-identifier-name.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/estree-util-is-identifier-name#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "extend",
       "version": "3.0.2",
       "bom-ref": "pkg:npm/extend@3.0.2?vcs_url=git%2Bhttps%3A//github.com/justmoon/node-extend.git",
@@ -2499,6 +2597,105 @@
     },
     {
       "type": "library",
+      "name": "hast-util-from-html",
+      "version": "2.0.1",
+      "bom-ref": "pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git",
+      "author": "Titus Wormer",
+      "description": "hast utility to parse from HTML",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hast-util-from-html/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hast-util-from-html.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hast-util-from-html#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hast-util-from-parse5",
+      "version": "8.0.1",
+      "bom-ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
+      "author": "Titus Wormer",
+      "description": "hast utility to transform from Parse5’s AST",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hast-util-from-parse5/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hast-util-from-parse5.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hast-util-from-parse5#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hast-util-is-element",
+      "version": "3.0.0",
+      "bom-ref": "pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git",
+      "author": "Titus Wormer",
+      "description": "hast utility to check if a node is a (certain) element",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hast-util-is-element/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hast-util-is-element.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hast-util-is-element#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "hast-util-parse-selector",
       "version": "2.2.5",
       "bom-ref": "pkg:npm/hast-util-parse-selector@2.2.5?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git",
@@ -2566,8 +2763,8 @@
     {
       "type": "library",
       "name": "hast-util-to-jsx-runtime",
-      "version": "2.2.0",
-      "bom-ref": "pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
+      "version": "2.3.0",
+      "bom-ref": "pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
       "author": "Titus Wormer",
       "description": "hast utility to transform to preact, react, solid, svelte, vue, etc",
       "licenses": [
@@ -2577,7 +2774,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
+      "purl": "pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
       "externalReferences": [
         {
           "url": "https://github.com/syntax-tree/hast-util-to-jsx-runtime/issues",
@@ -2830,8 +3027,8 @@
     {
       "type": "library",
       "name": "inline-style-parser",
-      "version": "0.1.1",
-      "bom-ref": "pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git",
+      "version": "0.2.2",
+      "bom-ref": "pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git",
       "description": "An inline style parser.",
       "licenses": [
         {
@@ -2840,7 +3037,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git",
+      "purl": "pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git",
       "externalReferences": [
         {
           "url": "https://github.com/remarkablemark/inline-style-parser/issues",
@@ -5261,6 +5458,39 @@
     },
     {
       "type": "library",
+      "name": "parse5",
+      "version": "7.1.2",
+      "bom-ref": "pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git",
+      "author": "Ivan Nikulin",
+      "description": "HTML parser and serializer.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/inikulin/parse5/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git://github.com/inikulin/parse5.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/inikulin/parse5",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "prismjs",
       "version": "1.27.0",
       "bom-ref": "pkg:npm/prismjs@1.27.0?vcs_url=git%2Bhttps%3A//github.com/PrismJS/prism.git",
@@ -5555,8 +5785,8 @@
     {
       "type": "library",
       "name": "react-redux",
-      "version": "8.1.2",
-      "bom-ref": "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+      "version": "8.1.3",
+      "bom-ref": "pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
       "author": "Dan Abramov",
       "description": "Official React bindings for Redux",
       "licenses": [
@@ -5566,7 +5796,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+      "purl": "pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
       "externalReferences": [
         {
           "url": "https://github.com/reduxjs/react-redux/issues",
@@ -5588,8 +5818,8 @@
     {
       "type": "library",
       "name": "react-router-dom",
-      "version": "6.15.0",
-      "bom-ref": "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+      "version": "6.20.1",
+      "bom-ref": "pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
       "author": "Remix Software",
       "description": "Declarative routing for React web applications",
       "licenses": [
@@ -5599,7 +5829,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+      "purl": "pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
       "externalReferences": [
         {
           "url": "https://github.com/remix-run/react-router/issues",
@@ -5621,8 +5851,8 @@
     {
       "type": "library",
       "name": "react-router",
-      "version": "6.15.0",
-      "bom-ref": "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+      "version": "6.20.1",
+      "bom-ref": "pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
       "author": "Remix Software",
       "description": "Declarative routing for React",
       "licenses": [
@@ -5632,7 +5862,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+      "purl": "pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
       "externalReferences": [
         {
           "url": "https://github.com/remix-run/react-router/issues",
@@ -5654,8 +5884,8 @@
     {
       "type": "library",
       "name": "react-spring",
-      "version": "9.7.2",
-      "bom-ref": "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "version": "9.7.3",
+      "bom-ref": "pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
       "author": "Paul Henschel",
       "licenses": [
         {
@@ -5664,7 +5894,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "purl": "pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
       "externalReferences": [
         {
           "url": "https://github.com/pmndrs/react-spring/issues",
@@ -5912,6 +6142,39 @@
     },
     {
       "type": "library",
+      "name": "rehype-github-alerts",
+      "version": "1.1.2",
+      "bom-ref": "pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git",
+      "author": "chrisweb",
+      "description": "rehype plugin to create alerts (admonitions/callouts)",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/chrisweb/rehype-github-alerts/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/chrisweb/rehype-github-alerts.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/chrisweb/rehype-github-alerts#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "remark-gfm",
       "version": "4.0.0",
       "bom-ref": "pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git",
@@ -5938,39 +6201,6 @@
         },
         {
           "url": "https://github.com/remarkjs/remark-gfm#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "remark-github-beta-blockquote-admonitions",
-      "version": "2.1.3",
-      "bom-ref": "pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git",
-      "author": "myl7",
-      "description": "remark plugin to add support for GitHub beta blockquote-based admonitions",
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git",
-      "externalReferences": [
-        {
-          "url": "https://github.com/myl7/remark-github-beta-blockquote-admonitions/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "git+https://github.com/myl7/remark-github-beta-blockquote-admonitions.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/myl7/remark-github-beta-blockquote-admonitions#readme",
           "type": "website",
           "comment": "as detected from PackageJson property \"homepage\""
         }
@@ -6241,8 +6471,8 @@
     {
       "type": "library",
       "name": "style-to-object",
-      "version": "0.4.4",
-      "bom-ref": "pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
+      "version": "1.0.5",
+      "bom-ref": "pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
       "author": "Mark",
       "description": "Converts inline style to object.",
       "licenses": [
@@ -6252,7 +6482,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
+      "purl": "pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
       "externalReferences": [
         {
           "url": "https://github.com/remarkablemark/style-to-object/issues",
@@ -6439,39 +6669,6 @@
     {
       "type": "library",
       "name": "unist-util-is",
-      "version": "5.2.1",
-      "bom-ref": "pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git",
-      "author": "Titus Wormer",
-      "description": "unist utility to check if a node passes a test",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git",
-      "externalReferences": [
-        {
-          "url": "https://github.com/syntax-tree/unist-util-is/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "git+https://github.com/syntax-tree/unist-util-is.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/syntax-tree/unist-util-is#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "unist-util-is",
       "version": "6.0.0",
       "bom-ref": "pkg:npm/unist-util-is@6.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git",
       "author": "Titus Wormer",
@@ -6604,39 +6801,6 @@
     {
       "type": "library",
       "name": "unist-util-visit-parents",
-      "version": "5.1.3",
-      "bom-ref": "pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git",
-      "author": "Titus Wormer",
-      "description": "unist utility to recursively walk over nodes, with ancestral information",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git",
-      "externalReferences": [
-        {
-          "url": "https://github.com/syntax-tree/unist-util-visit-parents/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "git+https://github.com/syntax-tree/unist-util-visit-parents.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/syntax-tree/unist-util-visit-parents#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "unist-util-visit-parents",
       "version": "6.0.1",
       "bom-ref": "pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git",
       "author": "Titus Wormer",
@@ -6662,39 +6826,6 @@
         },
         {
           "url": "https://github.com/syntax-tree/unist-util-visit-parents#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "unist-util-visit",
-      "version": "4.1.2",
-      "bom-ref": "pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git",
-      "author": "Titus Wormer",
-      "description": "unist utility to visit nodes",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git",
-      "externalReferences": [
-        {
-          "url": "https://github.com/syntax-tree/unist-util-visit/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "git+https://github.com/syntax-tree/unist-util-visit.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/syntax-tree/unist-util-visit#readme",
           "type": "website",
           "comment": "as detected from PackageJson property \"homepage\""
         }
@@ -6792,6 +6923,39 @@
         },
         {
           "url": "https://github.com/uuidjs/uuid#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vfile-location",
+      "version": "5.0.2",
+      "bom-ref": "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
+      "author": "Titus Wormer",
+      "description": "vfile utility to convert between positional (line and column-based) and offset (range-based) locations",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/vfile/vfile-location/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/vfile/vfile-location.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/vfile/vfile-location#readme",
           "type": "website",
           "comment": "as detected from PackageJson property \"homepage\""
         }
@@ -6998,47 +7162,36 @@
   ],
   "dependencies": [
     {
-      "ref": "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
+      "ref": "BomRef.53f08m8jvog.pq5dis9ivk8"
+    },
+    {
+      "ref": "BomRef.bad63kad878.br6ph9ukfio",
+      "dependsOn": [
+        "BomRef.53f08m8jvog.pq5dis9ivk8",
+        "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
+        "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
+        "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
     },
     {
       "ref": "pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"
     },
     {
-      "ref": "pkg:npm/%40minebea/fusion-auth@0.1.0",
+      "ref": "pkg:npm/%40minebea/hmi@1.1.0-alpha.53",
       "dependsOn": [
-        "pkg:npm/%40minebea/hmi@0.3.0-alpha.351",
-        "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
-        "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+        "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
         "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
-        "pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git",
-        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
-        "pkg:npm/react-markdown@9.0.1?vcs_url=git%2Bhttps%3A//github.com/remarkjs/react-markdown.git",
-        "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
-        "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
-        "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
-        "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
-        "pkg:npm/react-syntax-highlighter@15.5.0?vcs_url=git%2Bhttps%3A//github.com/react-syntax-highlighter/react-syntax-highlighter.git",
-        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
-        "pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git",
-        "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git",
-        "pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git",
-        "pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git",
-        "pkg:npm/remark-mermaidjs@6.0.0?vcs_url=git%2Bhttps%3A//github.com/remcohaszing/remark-mermaidjs.git"
-      ]
-    },
-    {
-      "ref": "pkg:npm/%40minebea/hmi@0.3.0-alpha.351",
-      "dependsOn": [
-        "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
-        "pkg:npm/%40minebea/fusion-auth@0.1.0",
-        "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"
+        "pkg:npm/SoftwarePortfolio@0.0.0"
       ]
     },
     {
       "ref": "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
       "dependsOn": [
-        "pkg:npm/%40minebea/fusion-auth@0.1.0",
-        "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"
+        "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
+        "pkg:npm/SoftwarePortfolio@0.0.0"
       ]
     },
     {
@@ -7076,7 +7229,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+      "ref": "pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
       "dependsOn": [
         "pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git",
         "pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git",
@@ -7085,7 +7238,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"
+      "ref": "pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"
     },
     {
       "ref": "pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git",
@@ -7372,7 +7525,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git"
+      "ref": "pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git"
     },
     {
       "ref": "pkg:npm/decode-named-character-reference@1.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/decode-named-character-reference.git"
@@ -7390,16 +7543,16 @@
       "ref": "pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git"
     },
     {
-      "ref": "pkg:npm/dompurify@3.0.6?vcs_url=git%3A//github.com/cure53/DOMPurify.git",
-      "dependsOn": [
-        "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
-      ]
+      "ref": "pkg:npm/dompurify@3.0.6?vcs_url=git%3A//github.com/cure53/DOMPurify.git"
     },
     {
       "ref": "pkg:npm/elkjs@0.8.2?vcs_url=git%2Bhttps%3A//github.com/kieler/elkjs.git"
     },
     {
       "ref": "pkg:npm/escape-string-regexp@5.0.0?vcs_url=git%2Bhttps%3A//github.com/sindresorhus/escape-string-regexp.git"
+    },
+    {
+      "ref": "pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git"
     },
     {
       "ref": "pkg:npm/extend@3.0.2?vcs_url=git%2Bhttps%3A//github.com/justmoon/node-extend.git"
@@ -7427,19 +7580,44 @@
       ]
     },
     {
+      "ref": "pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git",
+      "dependsOn": [
+        "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
+        "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
+        "pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git",
+        "pkg:npm/vfile-message@4.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-message.git",
+        "pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
+      "dependsOn": [
+        "BomRef.bad63kad878.br6ph9ukfio",
+        "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
+        "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
+        "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
+        "pkg:npm/web-namespaces@2.0.1?vcs_url=git%2Bhttps%3A//github.com/wooorm/web-namespaces.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git"
+    },
+    {
       "ref": "pkg:npm/hast-util-parse-selector@2.2.5?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git"
     },
     {
       "ref": "pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git"
     },
     {
-      "ref": "pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
+      "ref": "pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
       "dependsOn": [
         "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
+        "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
+        "pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git",
         "pkg:npm/hast-util-whitespace@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-whitespace.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git",
-        "pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
+        "pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
         "pkg:npm/unist-util-position@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-position.git",
         "pkg:npm/vfile-message@4.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-message.git"
       ]
@@ -7466,10 +7644,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/highlight.js@10.7.3?vcs_url=git%3A//github.com/highlightjs/highlight.js.git",
-      "dependsOn": [
-        "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
-      ]
+      "ref": "pkg:npm/highlight.js@10.7.3?vcs_url=git%3A//github.com/highlightjs/highlight.js.git"
     },
     {
       "ref": "pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git",
@@ -7484,7 +7659,7 @@
       "ref": "pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git"
     },
     {
-      "ref": "pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"
+      "ref": "pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"
     },
     {
       "ref": "pkg:npm/internmap@1.0.1?vcs_url=git%2Bhttps%3A//github.com/mbostock/internmap.git"
@@ -7659,7 +7834,7 @@
         "pkg:npm/d3-sankey@0.12.3?vcs_url=git%2Bhttps%3A//github.com/d3/d3-sankey.git",
         "pkg:npm/d3@7.8.5?vcs_url=git%2Bhttps%3A//github.com/d3/d3.git",
         "pkg:npm/dagre-d3-es@7.0.10?vcs_url=git%2Bhttps%3A//github.com/tbo47/dagre-es.git",
-        "pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git",
+        "pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git",
         "pkg:npm/dompurify@3.0.6?vcs_url=git%3A//github.com/cure53/DOMPurify.git",
         "pkg:npm/elkjs@0.8.2?vcs_url=git%2Bhttps%3A//github.com/kieler/elkjs.git",
         "pkg:npm/khroma@2.1.0?vcs_url=git%2Bhttps%3A//github.com/fabiospampinato/khroma.git",
@@ -7960,6 +8135,9 @@
       ]
     },
     {
+      "ref": "pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git"
+    },
+    {
       "ref": "pkg:npm/prismjs@1.27.0?vcs_url=git%2Bhttps%3A//github.com/PrismJS/prism.git"
     },
     {
@@ -8004,7 +8182,7 @@
       "ref": "pkg:npm/react-markdown@9.0.1?vcs_url=git%2Bhttps%3A//github.com/remarkjs/react-markdown.git",
       "dependsOn": [
         "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
-        "pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
+        "pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git",
         "pkg:npm/html-url-attributes@3.0.0?vcs_url=git%2Bhttps%3A//github.com/rehypejs/rehype-minify.git#main",
         "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
         "pkg:npm/remark-parse@11.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark.git#main",
@@ -8015,7 +8193,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+      "ref": "pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
       "dependsOn": [
         "pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git",
         "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
@@ -8025,22 +8203,23 @@
       ]
     },
     {
-      "ref": "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+      "ref": "pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
       "dependsOn": [
-        "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
-        "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+        "pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
         "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
       ]
     },
     {
-      "ref": "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+      "ref": "pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
       "dependsOn": [
-        "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+        "pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
         "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
       ]
     },
     {
-      "ref": "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "ref": "pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
       "dependsOn": [
         "pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"
       ]
@@ -8048,7 +8227,7 @@
     {
       "ref": "pkg:npm/react-syntax-highlighter@15.5.0?vcs_url=git%2Bhttps%3A//github.com/react-syntax-highlighter/react-syntax-highlighter.git",
       "dependsOn": [
-        "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
+        "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
         "pkg:npm/lowlight@1.20.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/lowlight.git",
         "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
         "pkg:npm/refractor@3.6.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/refractor.git"
@@ -8087,16 +8266,19 @@
       ]
     },
     {
+      "ref": "pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git",
+      "dependsOn": [
+        "pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git",
+        "pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git",
+        "pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git",
+        "pkg:npm/unist-util-visit@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git"
+      ]
+    },
+    {
       "ref": "pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git",
       "dependsOn": [
         "pkg:npm/mdast-util-gfm@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/mdast-util-gfm.git",
         "pkg:npm/micromark-extension-gfm@3.0.0?vcs_url=git%2Bhttps%3A//github.com/micromark/micromark-extension-gfm.git"
-      ]
-    },
-    {
-      "ref": "pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git",
-      "dependsOn": [
-        "pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git"
       ]
     },
     {
@@ -8129,15 +8311,38 @@
       "ref": "pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"
     },
     {
+      "ref": "pkg:npm/SoftwarePortfolio@0.0.0",
+      "dependsOn": [
+        "pkg:npm/%40minebea/hmi@1.1.0-alpha.53",
+        "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
+        "pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+        "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
+        "pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react-markdown@9.0.1?vcs_url=git%2Bhttps%3A//github.com/remarkjs/react-markdown.git",
+        "pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+        "pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+        "pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+        "pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/react-syntax-highlighter@15.5.0?vcs_url=git%2Bhttps%3A//github.com/react-syntax-highlighter/react-syntax-highlighter.git",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+        "pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git",
+        "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git",
+        "pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git",
+        "pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git",
+        "pkg:npm/remark-mermaidjs@6.0.0?vcs_url=git%2Bhttps%3A//github.com/remcohaszing/remark-mermaidjs.git"
+      ]
+    },
+    {
       "ref": "pkg:npm/space-separated-tokens@1.1.5?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
     },
     {
       "ref": "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
     },
     {
-      "ref": "pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
+      "ref": "pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git",
       "dependsOn": [
-        "pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"
+        "pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"
       ]
     },
     {
@@ -8164,9 +8369,6 @@
       ]
     },
     {
-      "ref": "pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"
-    },
-    {
       "ref": "pkg:npm/unist-util-is@6.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"
     },
     {
@@ -8179,21 +8381,9 @@
       "ref": "pkg:npm/unist-util-stringify-position@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-stringify-position.git"
     },
     {
-      "ref": "pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git",
-      "dependsOn": [
-        "pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"
-      ]
-    },
-    {
       "ref": "pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git",
       "dependsOn": [
         "pkg:npm/unist-util-is@6.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"
-      ]
-    },
-    {
-      "ref": "pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git",
-      "dependsOn": [
-        "pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git"
       ]
     },
     {
@@ -8210,6 +8400,9 @@
     },
     {
       "ref": "pkg:npm/uuid@9.0.1?vcs_url=git%2Bhttps%3A//github.com/uuidjs/uuid.git"
+    },
+    {
+      "ref": "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"
     },
     {
       "ref": "pkg:npm/vfile-message@4.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-message.git",

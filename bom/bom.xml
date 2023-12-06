@@ -5,7 +5,7 @@
       <tool>
         <vendor>@cyclonedx</vendor>
         <name>cyclonedx-library</name>
-        <version>6.0.0</version>
+        <version>6.1.2</version>
         <externalReferences>
           <reference type="issue-tracker">
             <url>https://github.com/CycloneDX/cyclonedx-javascript-library/issues</url>
@@ -24,7 +24,7 @@
       <tool>
         <vendor>@cyclonedx</vendor>
         <name>webpack-plugin</name>
-        <version>3.8.2</version>
+        <version>3.8.3</version>
         <externalReferences>
           <reference type="issue-tracker">
             <url>https://github.com/CycloneDX/cyclonedx-webpack-plugin/issues</url>
@@ -41,11 +41,10 @@
         </externalReferences>
       </tool>
     </tools>
-    <component type="application" bom-ref="pkg:npm/%40minebea/fusion-auth@0.1.0">
-      <group>@minebea</group>
-      <name>fusion-auth</name>
-      <version>0.1.0</version>
-      <purl>pkg:npm/%40minebea/fusion-auth@0.1.0</purl>
+    <component type="application" bom-ref="pkg:npm/SoftwarePortfolio@0.0.0">
+      <name>SoftwarePortfolio</name>
+      <version>0.0.0</version>
+      <purl>pkg:npm/SoftwarePortfolio@0.0.0</purl>
       <externalReferences>
         <reference type="website">
           <url>https://Minebea-Intec.github.io/SoftwarePortfolio</url>
@@ -55,18 +54,70 @@
     </component>
   </metadata>
   <components>
-    <component type="library" bom-ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime">
+    <component type="library" bom-ref="BomRef.9ms45abl4i8.cn7b8laai08">
+      <author>Titus Wormer</author>
+      <name>hastscript</name>
+      <version>8.0.0</version>
+      <description>hast utility to create trees</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hastscript@8.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hastscript.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hastscript/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hastscript.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hastscript#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="BomRef.sm0lj6vfeq.auus3bv4r3o">
+      <author>Titus Wormer</author>
+      <name>hast-util-parse-selector</name>
+      <version>4.0.0</version>
+      <description>hast utility to create an element from a simple CSS selector</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hast-util-parse-selector/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hast-util-parse-selector.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hast-util-parse-selector#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime">
       <author>The Babel Team</author>
       <group>@babel</group>
       <name>runtime</name>
-      <version>7.22.11</version>
+      <version>7.23.5</version>
       <description>babel's modular runtime helpers</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime</purl>
+      <purl>pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/babel/babel/issues</url>
@@ -108,18 +159,18 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/%40minebea/hmi@0.3.0-alpha.351">
+    <component type="library" bom-ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.53">
       <author>Minebea Intec GmbH</author>
       <group>@minebea</group>
       <name>hmi</name>
-      <version>0.3.0-alpha.351</version>
+      <version>1.1.0-alpha.53</version>
       <description>Minebea Intec reusable WEB-HMI</description>
       <licenses>
         <license>
           <name/>
         </license>
       </licenses>
-      <purl>pkg:npm/%40minebea/hmi@0.3.0-alpha.351</purl>
+      <purl>pkg:npm/%40minebea/hmi@1.1.0-alpha.53</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap">
       <author>Progress</author>
@@ -281,18 +332,18 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git">
+    <component type="library" bom-ref="pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git">
       <author>Mark Erikson</author>
       <group>@reduxjs</group>
       <name>toolkit</name>
-      <version>1.9.5</version>
+      <version>1.9.7</version>
       <description>The official, opinionated, batteries-included toolset for efficient Redux development</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git</purl>
+      <purl>pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/reduxjs/redux-toolkit/issues</url>
@@ -308,18 +359,18 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router">
+    <component type="library" bom-ref="pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router">
       <author>Remix Software</author>
       <group>@remix-run</group>
       <name>router</name>
-      <version>1.8.0</version>
+      <version>1.13.1</version>
       <description>Nested/Data-driven/Framework-agnostic Routing</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router</purl>
+      <purl>pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/remix-run/react-router/issues</url>
@@ -1633,17 +1684,17 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git">
+    <component type="library" bom-ref="pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git">
       <author>iamkun</author>
       <name>dayjs</name>
-      <version>1.11.9</version>
+      <version>1.11.10</version>
       <description>2KB immutable date time library alternative to Moment.js with the same modern API </description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git</purl>
+      <purl>pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/iamkun/dayjs/issues</url>
@@ -1839,6 +1890,32 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git">
+      <author>Titus Wormer</author>
+      <name>estree-util-is-identifier-name</name>
+      <version>3.0.0</version>
+      <description>Check if something can be an ecmascript (javascript) identifier name</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/estree-util-is-identifier-name/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/estree-util-is-identifier-name.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/estree-util-is-identifier-name#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/extend@3.0.2?vcs_url=git%2Bhttps%3A//github.com/justmoon/node-extend.git">
       <author>Stefan Thomas</author>
       <name>extend</name>
@@ -1970,6 +2047,84 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git">
+      <author>Titus Wormer</author>
+      <name>hast-util-from-html</name>
+      <version>2.0.1</version>
+      <description>hast utility to parse from HTML</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hast-util-from-html/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hast-util-from-html.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hast-util-from-html#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git">
+      <author>Titus Wormer</author>
+      <name>hast-util-from-parse5</name>
+      <version>8.0.1</version>
+      <description>hast utility to transform from Parse5’s AST</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hast-util-from-parse5/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hast-util-from-parse5.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hast-util-from-parse5#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git">
+      <author>Titus Wormer</author>
+      <name>hast-util-is-element</name>
+      <version>3.0.0</version>
+      <description>hast utility to check if a node is a (certain) element</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hast-util-is-element/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hast-util-is-element.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hast-util-is-element#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/hast-util-parse-selector@2.2.5?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git">
       <author>Titus Wormer</author>
       <name>hast-util-parse-selector</name>
@@ -2022,17 +2177,17 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git">
+    <component type="library" bom-ref="pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git">
       <author>Titus Wormer</author>
       <name>hast-util-to-jsx-runtime</name>
-      <version>2.2.0</version>
+      <version>2.3.0</version>
       <description>hast utility to transform to preact, react, solid, svelte, vue, etc</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git</purl>
+      <purl>pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/syntax-tree/hast-util-to-jsx-runtime/issues</url>
@@ -2230,16 +2385,16 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git">
+    <component type="library" bom-ref="pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git">
       <name>inline-style-parser</name>
-      <version>0.1.1</version>
+      <version>0.2.2</version>
       <description>An inline style parser.</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git</purl>
+      <purl>pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/remarkablemark/inline-style-parser/issues</url>
@@ -4146,6 +4301,32 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git">
+      <author>Ivan Nikulin</author>
+      <name>parse5</name>
+      <version>7.1.2</version>
+      <description>HTML parser and serializer.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/inikulin/parse5/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/inikulin/parse5.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/inikulin/parse5</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/prismjs@1.27.0?vcs_url=git%2Bhttps%3A//github.com/PrismJS/prism.git">
       <author>Lea Verou</author>
       <name>prismjs</name>
@@ -4376,17 +4557,17 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git">
+    <component type="library" bom-ref="pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git">
       <author>Dan Abramov</author>
       <name>react-redux</name>
-      <version>8.1.2</version>
+      <version>8.1.3</version>
       <description>Official React bindings for Redux</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git</purl>
+      <purl>pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/reduxjs/react-redux/issues</url>
@@ -4402,17 +4583,17 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom">
+    <component type="library" bom-ref="pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom">
       <author>Remix Software</author>
       <name>react-router-dom</name>
-      <version>6.15.0</version>
+      <version>6.20.1</version>
       <description>Declarative routing for React web applications</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom</purl>
+      <purl>pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/remix-run/react-router/issues</url>
@@ -4428,17 +4609,17 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router">
+    <component type="library" bom-ref="pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router">
       <author>Remix Software</author>
       <name>react-router</name>
-      <version>6.15.0</version>
+      <version>6.20.1</version>
       <description>Declarative routing for React</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router</purl>
+      <purl>pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/remix-run/react-router/issues</url>
@@ -4454,16 +4635,16 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+    <component type="library" bom-ref="pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
       <author>Paul Henschel</author>
       <name>react-spring</name>
-      <version>9.7.2</version>
+      <version>9.7.3</version>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <purl>pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/pmndrs/react-spring/issues</url>
@@ -4657,6 +4838,32 @@
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git">
+      <author>chrisweb</author>
+      <name>rehype-github-alerts</name>
+      <version>1.1.2</version>
+      <description>rehype plugin to create alerts (admonitions/callouts)</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/chrisweb/rehype-github-alerts/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/chrisweb/rehype-github-alerts.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/chrisweb/rehype-github-alerts#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git">
       <author>Titus Wormer</author>
       <name>remark-gfm</name>
@@ -4679,32 +4886,6 @@
         </reference>
         <reference type="website">
           <url>https://github.com/remarkjs/remark-gfm#readme</url>
-          <comment>as detected from PackageJson property "homepage"</comment>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git">
-      <author>myl7</author>
-      <name>remark-github-beta-blockquote-admonitions</name>
-      <version>2.1.3</version>
-      <description>remark plugin to add support for GitHub beta blockquote-based admonitions</description>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git</purl>
-      <externalReferences>
-        <reference type="issue-tracker">
-          <url>https://github.com/myl7/remark-github-beta-blockquote-admonitions/issues</url>
-          <comment>as detected from PackageJson property "bugs.url"</comment>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/myl7/remark-github-beta-blockquote-admonitions.git</url>
-          <comment>as detected from PackageJson property "repository.url"</comment>
-        </reference>
-        <reference type="website">
-          <url>https://github.com/myl7/remark-github-beta-blockquote-admonitions#readme</url>
           <comment>as detected from PackageJson property "homepage"</comment>
         </reference>
       </externalReferences>
@@ -4915,17 +5096,17 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git">
+    <component type="library" bom-ref="pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git">
       <author>Mark</author>
       <name>style-to-object</name>
-      <version>0.4.4</version>
+      <version>1.0.5</version>
       <description>Converts inline style to object.</description>
       <licenses>
         <license>
           <id>MIT</id>
         </license>
       </licenses>
-      <purl>pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git</purl>
+      <purl>pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git</purl>
       <externalReferences>
         <reference type="issue-tracker">
           <url>https://github.com/remarkablemark/style-to-object/issues</url>
@@ -5071,32 +5252,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git">
-      <author>Titus Wormer</author>
-      <name>unist-util-is</name>
-      <version>5.2.1</version>
-      <description>unist utility to check if a node passes a test</description>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git</purl>
-      <externalReferences>
-        <reference type="issue-tracker">
-          <url>https://github.com/syntax-tree/unist-util-is/issues</url>
-          <comment>as detected from PackageJson property "bugs.url"</comment>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/syntax-tree/unist-util-is.git</url>
-          <comment>as detected from PackageJson property "repository.url"</comment>
-        </reference>
-        <reference type="website">
-          <url>https://github.com/syntax-tree/unist-util-is#readme</url>
-          <comment>as detected from PackageJson property "homepage"</comment>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/unist-util-is@6.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git">
       <author>Titus Wormer</author>
       <name>unist-util-is</name>
@@ -5201,32 +5356,6 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git">
-      <author>Titus Wormer</author>
-      <name>unist-util-visit-parents</name>
-      <version>5.1.3</version>
-      <description>unist utility to recursively walk over nodes, with ancestral information</description>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git</purl>
-      <externalReferences>
-        <reference type="issue-tracker">
-          <url>https://github.com/syntax-tree/unist-util-visit-parents/issues</url>
-          <comment>as detected from PackageJson property "bugs.url"</comment>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/syntax-tree/unist-util-visit-parents.git</url>
-          <comment>as detected from PackageJson property "repository.url"</comment>
-        </reference>
-        <reference type="website">
-          <url>https://github.com/syntax-tree/unist-util-visit-parents#readme</url>
-          <comment>as detected from PackageJson property "homepage"</comment>
-        </reference>
-      </externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git">
       <author>Titus Wormer</author>
       <name>unist-util-visit-parents</name>
@@ -5249,32 +5378,6 @@
         </reference>
         <reference type="website">
           <url>https://github.com/syntax-tree/unist-util-visit-parents#readme</url>
-          <comment>as detected from PackageJson property "homepage"</comment>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git">
-      <author>Titus Wormer</author>
-      <name>unist-util-visit</name>
-      <version>4.1.2</version>
-      <description>unist utility to visit nodes</description>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git</purl>
-      <externalReferences>
-        <reference type="issue-tracker">
-          <url>https://github.com/syntax-tree/unist-util-visit/issues</url>
-          <comment>as detected from PackageJson property "bugs.url"</comment>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/syntax-tree/unist-util-visit.git</url>
-          <comment>as detected from PackageJson property "repository.url"</comment>
-        </reference>
-        <reference type="website">
-          <url>https://github.com/syntax-tree/unist-util-visit#readme</url>
           <comment>as detected from PackageJson property "homepage"</comment>
         </reference>
       </externalReferences>
@@ -5351,6 +5454,32 @@
         </reference>
         <reference type="website">
           <url>https://github.com/uuidjs/uuid#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git">
+      <author>Titus Wormer</author>
+      <name>vfile-location</name>
+      <version>5.0.2</version>
+      <description>vfile utility to convert between positional (line and column-based) and offset (range-based) locations</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/vfile/vfile-location/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/vfile/vfile-location.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/vfile/vfile-location#readme</url>
           <comment>as detected from PackageJson property "homepage"</comment>
         </reference>
       </externalReferences>
@@ -5513,36 +5642,23 @@
     </component>
   </components>
   <dependencies>
-    <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
-    <dependency ref="pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"/>
-    <dependency ref="pkg:npm/%40minebea/fusion-auth@0.1.0">
-      <dependency ref="pkg:npm/%40minebea/hmi@0.3.0-alpha.351"/>
-      <dependency ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap"/>
-      <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git"/>
-      <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
-      <dependency ref="pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git"/>
-      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
-      <dependency ref="pkg:npm/react-markdown@9.0.1?vcs_url=git%2Bhttps%3A//github.com/remarkjs/react-markdown.git"/>
-      <dependency ref="pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git"/>
-      <dependency ref="pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom"/>
-      <dependency ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router"/>
-      <dependency ref="pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
-      <dependency ref="pkg:npm/react-syntax-highlighter@15.5.0?vcs_url=git%2Bhttps%3A//github.com/react-syntax-highlighter/react-syntax-highlighter.git"/>
-      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
-      <dependency ref="pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git"/>
-      <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
-      <dependency ref="pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git"/>
-      <dependency ref="pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git"/>
-      <dependency ref="pkg:npm/remark-mermaidjs@6.0.0?vcs_url=git%2Bhttps%3A//github.com/remcohaszing/remark-mermaidjs.git"/>
+    <dependency ref="BomRef.9ms45abl4i8.cn7b8laai08">
+      <dependency ref="BomRef.sm0lj6vfeq.auus3bv4r3o"/>
+      <dependency ref="pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git"/>
+      <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
+      <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
     </dependency>
-    <dependency ref="pkg:npm/%40minebea/hmi@0.3.0-alpha.351">
-      <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
-      <dependency ref="pkg:npm/%40minebea/fusion-auth@0.1.0"/>
+    <dependency ref="BomRef.sm0lj6vfeq.auus3bv4r3o"/>
+    <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
+    <dependency ref="pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"/>
+    <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.53">
+      <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
       <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
+      <dependency ref="pkg:npm/SoftwarePortfolio@0.0.0"/>
     </dependency>
     <dependency ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap">
-      <dependency ref="pkg:npm/%40minebea/fusion-auth@0.1.0"/>
       <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
+      <dependency ref="pkg:npm/SoftwarePortfolio@0.0.0"/>
     </dependency>
     <dependency ref="pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
       <dependency ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
@@ -5564,13 +5680,13 @@
       <dependency ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
       <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
     </dependency>
-    <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git">
+    <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git">
       <dependency ref="pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git"/>
       <dependency ref="pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git"/>
       <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
       <dependency ref="pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git"/>
     </dependency>
-    <dependency ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
+    <dependency ref="pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
     <dependency ref="pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git">
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
     </dependency>
@@ -5729,18 +5845,17 @@
       <dependency ref="pkg:npm/d3@7.8.5?vcs_url=git%2Bhttps%3A//github.com/d3/d3.git"/>
       <dependency ref="pkg:npm/lodash-es@4.17.21?vcs_url=git%2Bhttps%3A//github.com/lodash/lodash.git"/>
     </dependency>
-    <dependency ref="pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git"/>
+    <dependency ref="pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git"/>
     <dependency ref="pkg:npm/decode-named-character-reference@1.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/decode-named-character-reference.git"/>
     <dependency ref="pkg:npm/delaunator@5.0.0?vcs_url=git%2Bhttps%3A//github.com/mapbox/delaunator.git">
       <dependency ref="pkg:npm/robust-predicates@3.0.2?vcs_url=git%2Bhttps%3A//github.com/mourner/robust-predicates.git"/>
     </dependency>
     <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
     <dependency ref="pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git"/>
-    <dependency ref="pkg:npm/dompurify@3.0.6?vcs_url=git%3A//github.com/cure53/DOMPurify.git">
-      <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
-    </dependency>
+    <dependency ref="pkg:npm/dompurify@3.0.6?vcs_url=git%3A//github.com/cure53/DOMPurify.git"/>
     <dependency ref="pkg:npm/elkjs@0.8.2?vcs_url=git%2Bhttps%3A//github.com/kieler/elkjs.git"/>
     <dependency ref="pkg:npm/escape-string-regexp@5.0.0?vcs_url=git%2Bhttps%3A//github.com/sindresorhus/escape-string-regexp.git"/>
+    <dependency ref="pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git"/>
     <dependency ref="pkg:npm/extend@3.0.2?vcs_url=git%2Bhttps%3A//github.com/justmoon/node-extend.git"/>
     <dependency ref="pkg:npm/fault@1.0.4?vcs_url=git%2Bhttps%3A//github.com/wooorm/fault.git">
       <dependency ref="pkg:npm/format@0.2.2?vcs_url=git%3A//github.com/samsonjs/format.git"/>
@@ -5753,14 +5868,31 @@
     <dependency ref="pkg:npm/hast-util-from-html-isomorphic@2.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html-isomorphic.git">
       <dependency ref="pkg:npm/hast-util-from-dom@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-dom.git"/>
     </dependency>
+    <dependency ref="pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git">
+      <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
+      <dependency ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git"/>
+      <dependency ref="pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git"/>
+      <dependency ref="pkg:npm/vfile-message@4.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-message.git"/>
+      <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git">
+      <dependency ref="BomRef.9ms45abl4i8.cn7b8laai08"/>
+      <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
+      <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
+      <dependency ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"/>
+      <dependency ref="pkg:npm/web-namespaces@2.0.1?vcs_url=git%2Bhttps%3A//github.com/wooorm/web-namespaces.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git"/>
     <dependency ref="pkg:npm/hast-util-parse-selector@2.2.5?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git"/>
     <dependency ref="pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git"/>
-    <dependency ref="pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git">
+    <dependency ref="pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git">
       <dependency ref="pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git"/>
+      <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
+      <dependency ref="pkg:npm/estree-util-is-identifier-name@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/estree-util-is-identifier-name.git"/>
       <dependency ref="pkg:npm/hast-util-whitespace@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-whitespace.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
-      <dependency ref="pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git"/>
+      <dependency ref="pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git"/>
       <dependency ref="pkg:npm/unist-util-position@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-position.git"/>
       <dependency ref="pkg:npm/vfile-message@4.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-message.git"/>
     </dependency>
@@ -5777,15 +5909,13 @@
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
     </dependency>
-    <dependency ref="pkg:npm/highlight.js@10.7.3?vcs_url=git%3A//github.com/highlightjs/highlight.js.git">
-      <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
-    </dependency>
+    <dependency ref="pkg:npm/highlight.js@10.7.3?vcs_url=git%3A//github.com/highlightjs/highlight.js.git"/>
     <dependency ref="pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git">
       <dependency ref="pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
     </dependency>
     <dependency ref="pkg:npm/html-url-attributes@3.0.0?vcs_url=git%2Bhttps%3A//github.com/rehypejs/rehype-minify.git#main"/>
     <dependency ref="pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git"/>
-    <dependency ref="pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"/>
+    <dependency ref="pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"/>
     <dependency ref="pkg:npm/internmap@1.0.1?vcs_url=git%2Bhttps%3A//github.com/mbostock/internmap.git"/>
     <dependency ref="pkg:npm/internmap@2.0.3?vcs_url=git%2Bhttps%3A//github.com/mbostock/internmap.git"/>
     <dependency ref="pkg:npm/is-alphabetical@1.0.4?vcs_url=git%2Bhttps%3A//github.com/wooorm/is-alphabetical.git"/>
@@ -5887,7 +6017,7 @@
       <dependency ref="pkg:npm/d3-sankey@0.12.3?vcs_url=git%2Bhttps%3A//github.com/d3/d3-sankey.git"/>
       <dependency ref="pkg:npm/d3@7.8.5?vcs_url=git%2Bhttps%3A//github.com/d3/d3.git"/>
       <dependency ref="pkg:npm/dagre-d3-es@7.0.10?vcs_url=git%2Bhttps%3A//github.com/tbo47/dagre-es.git"/>
-      <dependency ref="pkg:npm/dayjs@1.11.9?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git"/>
+      <dependency ref="pkg:npm/dayjs@1.11.10?vcs_url=git%2Bhttps%3A//github.com/iamkun/dayjs.git"/>
       <dependency ref="pkg:npm/dompurify@3.0.6?vcs_url=git%3A//github.com/cure53/DOMPurify.git"/>
       <dependency ref="pkg:npm/elkjs@0.8.2?vcs_url=git%2Bhttps%3A//github.com/kieler/elkjs.git"/>
       <dependency ref="pkg:npm/khroma@2.1.0?vcs_url=git%2Bhttps%3A//github.com/fabiospampinato/khroma.git"/>
@@ -6068,6 +6198,7 @@
       <dependency ref="pkg:npm/is-decimal@1.0.4?vcs_url=git%2Bhttps%3A//github.com/wooorm/is-decimal.git"/>
       <dependency ref="pkg:npm/is-hexadecimal@1.0.4?vcs_url=git%2Bhttps%3A//github.com/wooorm/is-hexadecimal.git"/>
     </dependency>
+    <dependency ref="pkg:npm/parse5@7.1.2?vcs_url=git%3A//github.com/inikulin/parse5.git"/>
     <dependency ref="pkg:npm/prismjs@1.27.0?vcs_url=git%2Bhttps%3A//github.com/PrismJS/prism.git"/>
     <dependency ref="pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git"/>
     <dependency ref="pkg:npm/property-information@5.6.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git">
@@ -6092,7 +6223,7 @@
     <dependency ref="pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
     <dependency ref="pkg:npm/react-markdown@9.0.1?vcs_url=git%2Bhttps%3A//github.com/remarkjs/react-markdown.git">
       <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
-      <dependency ref="pkg:npm/hast-util-to-jsx-runtime@2.2.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git"/>
+      <dependency ref="pkg:npm/hast-util-to-jsx-runtime@2.3.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-to-jsx-runtime.git"/>
       <dependency ref="pkg:npm/html-url-attributes@3.0.0?vcs_url=git%2Bhttps%3A//github.com/rehypejs/rehype-minify.git#main"/>
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
       <dependency ref="pkg:npm/remark-parse@11.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark.git#main"/>
@@ -6101,27 +6232,28 @@
       <dependency ref="pkg:npm/unist-util-visit@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git"/>
       <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
     </dependency>
-    <dependency ref="pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git">
+    <dependency ref="pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git">
       <dependency ref="pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git"/>
       <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
       <dependency ref="pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
       <dependency ref="pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store"/>
     </dependency>
-    <dependency ref="pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom">
-      <dependency ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
-      <dependency ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router"/>
+    <dependency ref="pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom">
+      <dependency ref="pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router"/>
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
     </dependency>
-    <dependency ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router">
-      <dependency ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
+    <dependency ref="pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router">
+      <dependency ref="pkg:npm/%40remix-run/router@1.13.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
     </dependency>
-    <dependency ref="pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+    <dependency ref="pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
       <dependency ref="pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
     </dependency>
     <dependency ref="pkg:npm/react-syntax-highlighter@15.5.0?vcs_url=git%2Bhttps%3A//github.com/react-syntax-highlighter/react-syntax-highlighter.git">
-      <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
+      <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
       <dependency ref="pkg:npm/lowlight@1.20.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/lowlight.git"/>
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
       <dependency ref="pkg:npm/refractor@3.6.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/refractor.git"/>
@@ -6143,12 +6275,15 @@
       <dependency ref="pkg:npm/parse-entities@2.0.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/parse-entities.git"/>
       <dependency ref="pkg:npm/prismjs@1.27.0?vcs_url=git%2Bhttps%3A//github.com/PrismJS/prism.git"/>
     </dependency>
+    <dependency ref="pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git">
+      <dependency ref="pkg:npm/hast-util-from-html@2.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html.git"/>
+      <dependency ref="pkg:npm/hast-util-is-element@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-is-element.git"/>
+      <dependency ref="pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git"/>
+      <dependency ref="pkg:npm/unist-util-visit@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git"/>
+    </dependency>
     <dependency ref="pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git">
       <dependency ref="pkg:npm/mdast-util-gfm@3.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/mdast-util-gfm.git"/>
       <dependency ref="pkg:npm/micromark-extension-gfm@3.0.0?vcs_url=git%2Bhttps%3A//github.com/micromark/micromark-extension-gfm.git"/>
-    </dependency>
-    <dependency ref="pkg:npm/remark-github-beta-blockquote-admonitions@2.1.3?vcs_url=git%2Bhttps%3A//github.com/myl7/remark-github-beta-blockquote-admonitions.git">
-      <dependency ref="pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git"/>
     </dependency>
     <dependency ref="pkg:npm/remark-mermaidjs@6.0.0?vcs_url=git%2Bhttps%3A//github.com/remcohaszing/remark-mermaidjs.git">
       <dependency ref="pkg:npm/hast-util-from-html-isomorphic@2.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-html-isomorphic.git"/>
@@ -6164,10 +6299,30 @@
     <dependency ref="pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git"/>
     <dependency ref="pkg:npm/robust-predicates@3.0.2?vcs_url=git%2Bhttps%3A//github.com/mourner/robust-predicates.git"/>
     <dependency ref="pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"/>
+    <dependency ref="pkg:npm/SoftwarePortfolio@0.0.0">
+      <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.53"/>
+      <dependency ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap"/>
+      <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git"/>
+      <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
+      <dependency ref="pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react-markdown@9.0.1?vcs_url=git%2Bhttps%3A//github.com/remarkjs/react-markdown.git"/>
+      <dependency ref="pkg:npm/react-redux@8.1.3?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git"/>
+      <dependency ref="pkg:npm/react-router-dom@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom"/>
+      <dependency ref="pkg:npm/react-router@6.20.1?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router"/>
+      <dependency ref="pkg:npm/react-spring@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/react-syntax-highlighter@15.5.0?vcs_url=git%2Bhttps%3A//github.com/react-syntax-highlighter/react-syntax-highlighter.git"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+      <dependency ref="pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git"/>
+      <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
+      <dependency ref="pkg:npm/rehype-github-alerts@1.1.2?vcs_url=git%2Bhttps%3A//github.com/chrisweb/rehype-github-alerts.git"/>
+      <dependency ref="pkg:npm/remark-gfm@4.0.0?vcs_url=git%2Bhttps%3A//github.com/remarkjs/remark-gfm.git"/>
+      <dependency ref="pkg:npm/remark-mermaidjs@6.0.0?vcs_url=git%2Bhttps%3A//github.com/remcohaszing/remark-mermaidjs.git"/>
+    </dependency>
     <dependency ref="pkg:npm/space-separated-tokens@1.1.5?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
     <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
-    <dependency ref="pkg:npm/style-to-object@0.4.4?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git">
-      <dependency ref="pkg:npm/inline-style-parser@0.1.1?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"/>
+    <dependency ref="pkg:npm/style-to-object@1.0.5?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/style-to-object.git">
+      <dependency ref="pkg:npm/inline-style-parser@0.2.2?vcs_url=git%2Bhttps%3A//github.com/remarkablemark/inline-style-parser.git"/>
     </dependency>
     <dependency ref="pkg:npm/stylis@4.3.0?vcs_url=git%2Bhttps%3A//github.com/thysultan/stylis.js.git"/>
     <dependency ref="pkg:npm/trim-lines@3.0.1?vcs_url=git%2Bhttps%3A//github.com/wooorm/trim-lines.git"/>
@@ -6181,19 +6336,12 @@
       <dependency ref="pkg:npm/trough@2.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/trough.git"/>
       <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
     </dependency>
-    <dependency ref="pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"/>
     <dependency ref="pkg:npm/unist-util-is@6.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"/>
     <dependency ref="pkg:npm/unist-util-position@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-position.git"/>
     <dependency ref="pkg:npm/unist-util-stringify-position@3.0.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-stringify-position.git"/>
     <dependency ref="pkg:npm/unist-util-stringify-position@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-stringify-position.git"/>
-    <dependency ref="pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git">
-      <dependency ref="pkg:npm/unist-util-is@5.2.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"/>
-    </dependency>
     <dependency ref="pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git">
       <dependency ref="pkg:npm/unist-util-is@6.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-is.git"/>
-    </dependency>
-    <dependency ref="pkg:npm/unist-util-visit@4.1.2?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git">
-      <dependency ref="pkg:npm/unist-util-visit-parents@5.1.3?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git"/>
     </dependency>
     <dependency ref="pkg:npm/unist-util-visit@5.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit.git">
       <dependency ref="pkg:npm/unist-util-visit-parents@6.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-visit-parents.git"/>
@@ -6202,6 +6350,7 @@
       <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
     </dependency>
     <dependency ref="pkg:npm/uuid@9.0.1?vcs_url=git%2Bhttps%3A//github.com/uuidjs/uuid.git"/>
+    <dependency ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"/>
     <dependency ref="pkg:npm/vfile-message@4.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-message.git">
       <dependency ref="pkg:npm/unist-util-stringify-position@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/unist-util-stringify-position.git"/>
     </dependency>
