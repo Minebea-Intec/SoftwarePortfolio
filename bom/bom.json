@@ -68,42 +68,9 @@
   "components": [
     {
       "type": "library",
-      "name": "hast-util-parse-selector",
-      "version": "4.0.0",
-      "bom-ref": "BomRef.hhpls961rs8.lsokpv9g5rg",
-      "author": "Titus Wormer",
-      "description": "hast utility to create an element from a simple CSS selector",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git",
-      "externalReferences": [
-        {
-          "url": "https://github.com/syntax-tree/hast-util-parse-selector/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "git+https://github.com/syntax-tree/hast-util-parse-selector.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/syntax-tree/hast-util-parse-selector#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "hastscript",
       "version": "8.0.0",
-      "bom-ref": "BomRef.of4p7rr8udg.bnd6qmjosbo",
+      "bom-ref": "BomRef.lmg80a7dtl8.hddifak8mhg",
       "author": "Titus Wormer",
       "description": "hast utility to create trees",
       "licenses": [
@@ -127,6 +94,39 @@
         },
         {
           "url": "https://github.com/syntax-tree/hastscript#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hast-util-parse-selector",
+      "version": "4.0.0",
+      "bom-ref": "BomRef.q09snregvpg.dfbmgo9vadg",
+      "author": "Titus Wormer",
+      "description": "hast utility to create an element from a simple CSS selector",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hast-util-parse-selector/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hast-util-parse-selector.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hast-util-parse-selector#readme",
           "type": "website",
           "comment": "as detected from PackageJson property \"homepage\""
         }
@@ -7162,16 +7162,16 @@
   ],
   "dependencies": [
     {
-      "ref": "BomRef.hhpls961rs8.lsokpv9g5rg"
-    },
-    {
-      "ref": "BomRef.of4p7rr8udg.bnd6qmjosbo",
+      "ref": "BomRef.lmg80a7dtl8.hddifak8mhg",
       "dependsOn": [
-        "BomRef.hhpls961rs8.lsokpv9g5rg",
+        "BomRef.q09snregvpg.dfbmgo9vadg",
         "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
       ]
+    },
+    {
+      "ref": "BomRef.q09snregvpg.dfbmgo9vadg"
     },
     {
       "ref": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
@@ -7592,7 +7592,7 @@
     {
       "ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
       "dependsOn": [
-        "BomRef.of4p7rr8udg.bnd6qmjosbo",
+        "BomRef.lmg80a7dtl8.hddifak8mhg",
         "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
