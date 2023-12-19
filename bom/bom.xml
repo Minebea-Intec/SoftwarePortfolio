@@ -54,33 +54,7 @@
     </component>
   </metadata>
   <components>
-    <component type="library" bom-ref="BomRef.a6evk20mrp.dajvj5r11g8">
-      <author>Titus Wormer</author>
-      <name>hast-util-parse-selector</name>
-      <version>4.0.0</version>
-      <description>hast utility to create an element from a simple CSS selector</description>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git</purl>
-      <externalReferences>
-        <reference type="issue-tracker">
-          <url>https://github.com/syntax-tree/hast-util-parse-selector/issues</url>
-          <comment>as detected from PackageJson property "bugs.url"</comment>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/syntax-tree/hast-util-parse-selector.git</url>
-          <comment>as detected from PackageJson property "repository.url"</comment>
-        </reference>
-        <reference type="website">
-          <url>https://github.com/syntax-tree/hast-util-parse-selector#readme</url>
-          <comment>as detected from PackageJson property "homepage"</comment>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="BomRef.kke6lkn3jro.u25da2lac9g">
+    <component type="library" bom-ref="BomRef.5eno0k021oo.f9qcj9gnrpg">
       <author>Titus Wormer</author>
       <name>hastscript</name>
       <version>8.0.0</version>
@@ -102,6 +76,32 @@
         </reference>
         <reference type="website">
           <url>https://github.com/syntax-tree/hastscript#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="BomRef.vd1h2l9gs2g.p77n14fhq6">
+      <author>Titus Wormer</author>
+      <name>hast-util-parse-selector</name>
+      <version>4.0.0</version>
+      <description>hast utility to create an element from a simple CSS selector</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hast-util-parse-selector@4.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-parse-selector.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hast-util-parse-selector/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hast-util-parse-selector.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hast-util-parse-selector#readme</url>
           <comment>as detected from PackageJson property "homepage"</comment>
         </reference>
       </externalReferences>
@@ -159,18 +159,18 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.57">
+    <component type="library" bom-ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.58">
       <author>Minebea Intec GmbH</author>
       <group>@minebea</group>
       <name>hmi</name>
-      <version>1.1.0-alpha.57</version>
+      <version>1.1.0-alpha.58</version>
       <description>Minebea Intec reusable WEB-HMI</description>
       <licenses>
         <license>
           <name/>
         </license>
       </licenses>
-      <purl>pkg:npm/%40minebea/hmi@1.1.0-alpha.57</purl>
+      <purl>pkg:npm/%40minebea/hmi@1.1.0-alpha.58</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap">
       <author>Progress</author>
@@ -5642,16 +5642,16 @@
     </component>
   </components>
   <dependencies>
-    <dependency ref="BomRef.a6evk20mrp.dajvj5r11g8"/>
-    <dependency ref="BomRef.kke6lkn3jro.u25da2lac9g">
-      <dependency ref="BomRef.a6evk20mrp.dajvj5r11g8"/>
+    <dependency ref="BomRef.5eno0k021oo.f9qcj9gnrpg">
+      <dependency ref="BomRef.vd1h2l9gs2g.p77n14fhq6"/>
       <dependency ref="pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
     </dependency>
+    <dependency ref="BomRef.vd1h2l9gs2g.p77n14fhq6"/>
     <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
     <dependency ref="pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"/>
-    <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.57">
+    <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.58">
       <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
       <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
       <dependency ref="pkg:npm/SoftwarePortfolio@0.0.0"/>
@@ -5876,7 +5876,7 @@
       <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
     </dependency>
     <dependency ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git">
-      <dependency ref="BomRef.kke6lkn3jro.u25da2lac9g"/>
+      <dependency ref="BomRef.5eno0k021oo.f9qcj9gnrpg"/>
       <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"/>
@@ -6300,7 +6300,7 @@
     <dependency ref="pkg:npm/robust-predicates@3.0.2?vcs_url=git%2Bhttps%3A//github.com/mourner/robust-predicates.git"/>
     <dependency ref="pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"/>
     <dependency ref="pkg:npm/SoftwarePortfolio@0.0.0">
-      <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.57"/>
+      <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.58"/>
       <dependency ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap"/>
       <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git"/>
       <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
