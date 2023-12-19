@@ -70,7 +70,7 @@
       "type": "library",
       "name": "hastscript",
       "version": "8.0.0",
-      "bom-ref": "BomRef.fdvo02q9gso.dm48a59i6fg",
+      "bom-ref": "BomRef.ktgmhn2ct2g.tvme9fhdj08",
       "author": "Titus Wormer",
       "description": "hast utility to create trees",
       "licenses": [
@@ -103,7 +103,7 @@
       "type": "library",
       "name": "hast-util-parse-selector",
       "version": "4.0.0",
-      "bom-ref": "BomRef.jk2hm5v45b8.a51t2gssdp",
+      "bom-ref": "BomRef.pc60m1o38oo.i5qqqqpak4g",
       "author": "Titus Wormer",
       "description": "hast utility to create an element from a simple CSS selector",
       "licenses": [
@@ -203,8 +203,8 @@
       "type": "library",
       "name": "hmi",
       "group": "@minebea",
-      "version": "1.1.0-alpha.55",
-      "bom-ref": "pkg:npm/%40minebea/hmi@1.1.0-alpha.55",
+      "version": "1.1.0-alpha.56",
+      "bom-ref": "pkg:npm/%40minebea/hmi@1.1.0-alpha.56",
       "author": "Minebea Intec GmbH",
       "description": "Minebea Intec reusable WEB-HMI",
       "licenses": [
@@ -214,7 +214,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40minebea/hmi@1.1.0-alpha.55"
+      "purl": "pkg:npm/%40minebea/hmi@1.1.0-alpha.56"
     },
     {
       "type": "library",
@@ -7162,16 +7162,16 @@
   ],
   "dependencies": [
     {
-      "ref": "BomRef.fdvo02q9gso.dm48a59i6fg",
+      "ref": "BomRef.ktgmhn2ct2g.tvme9fhdj08",
       "dependsOn": [
-        "BomRef.jk2hm5v45b8.a51t2gssdp",
+        "BomRef.pc60m1o38oo.i5qqqqpak4g",
         "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
       ]
     },
     {
-      "ref": "BomRef.jk2hm5v45b8.a51t2gssdp"
+      "ref": "BomRef.pc60m1o38oo.i5qqqqpak4g"
     },
     {
       "ref": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
@@ -7180,7 +7180,7 @@
       "ref": "pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"
     },
     {
-      "ref": "pkg:npm/%40minebea/hmi@1.1.0-alpha.55",
+      "ref": "pkg:npm/%40minebea/hmi@1.1.0-alpha.56",
       "dependsOn": [
         "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
         "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
@@ -7592,7 +7592,7 @@
     {
       "ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
       "dependsOn": [
-        "BomRef.fdvo02q9gso.dm48a59i6fg",
+        "BomRef.ktgmhn2ct2g.tvme9fhdj08",
         "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
@@ -8313,7 +8313,7 @@
     {
       "ref": "pkg:npm/SoftwarePortfolio@0.0.0",
       "dependsOn": [
-        "pkg:npm/%40minebea/hmi@1.1.0-alpha.55",
+        "pkg:npm/%40minebea/hmi@1.1.0-alpha.56",
         "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
         "pkg:npm/%40reduxjs/toolkit@1.9.7?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
         "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
