@@ -330,6 +330,46 @@ button.k-input-button.k-button.k-icon-button.k-button-md.k-button-solid.k-button
   .col-12.col-lg-4.wrapper {
     margin-bottom: 32px;
   }
+
+  .inline-table-of-contents {
+    transition: min-width 0.4s ease;
+    background: #e7e7e7;
+    z-index: 0;
+    width: 0;
+    right: 0;
+    float: right;
+    top: 48px;
+    position: absolute;
+    overflow: hidden;
+    height: calc(100dvh - 48px);
+  }
+
+  .inline-table-of-contents .parameter-page {
+    height: calc(100dvh - 84px) !important;
+    overflow-y: scroll;
+  }
+
+  .detail-header {
+    width: 100%;
+    font-weight: 500;
+    padding: 5px 0 0 10px;
+    background: #eaeaea;
+    height: 36px;
+    border-bottom: 1px solid #979797;
+    overflow: hidden;
+  }
+
+  .detail-close-button {
+    border: unset;
+    background: transparent;
+    left: calc(100dvw - 42px);
+    position: absolute;
+    transform: translateY(-5px);
+  }
+
+  .detail-body {
+    height: unset;
+  }
 }
 
 @media (max-width: 465.98px) {
