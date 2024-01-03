@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SoftwarePortfolio/static/css/main.5ad9ae27.css",
-    "main.js": "/SoftwarePortfolio/static/js/main.41af8b87.js",
+    "main.js": "/SoftwarePortfolio/static/js/main.d8464244.js",
     "static/js/933.7a5d2ec7.chunk.js": "/SoftwarePortfolio/static/js/933.7a5d2ec7.chunk.js",
     "static/js/89.784b32af.chunk.js": "/SoftwarePortfolio/static/js/89.784b32af.chunk.js",
     "static/js/982.1f1976f0.chunk.js": "/SoftwarePortfolio/static/js/982.1f1976f0.chunk.js",
@@ -32,8 +32,8 @@
     "static/js/308.66ac0bd7.chunk.js": "/SoftwarePortfolio/static/js/308.66ac0bd7.chunk.js",
     "static/js/533.fced9bdf.chunk.js": "/SoftwarePortfolio/static/js/533.fced9bdf.chunk.js",
     "bom/bom.xml": "/SoftwarePortfolio/bom/bom.xml",
-    ".well-known/sbom": "/SoftwarePortfolio/.well-known/sbom",
     "bom/bom.json": "/SoftwarePortfolio/bom/bom.json",
+    ".well-known/sbom": "/SoftwarePortfolio/.well-known/sbom",
     "static/media/Inter-Bold.woff": "/SoftwarePortfolio/static/media/Inter-Bold.b755d2e570b1329b527d.woff",
     "static/media/Inter-ExtraBold.woff": "/SoftwarePortfolio/static/media/Inter-ExtraBold.b10df6acf0d5f64b6b2b.woff",
     "static/media/Inter-SemiBold.woff": "/SoftwarePortfolio/static/media/Inter-SemiBold.945e781bc80fb04da8ee.woff",
@@ -46,7 +46,7 @@
     "static/media/InterWeight-500.otf": "/SoftwarePortfolio/static/media/InterWeight-500.c3b895e2a1ceab2d731d.otf",
     "index.html": "/SoftwarePortfolio/index.html",
     "main.5ad9ae27.css.map": "/SoftwarePortfolio/static/css/main.5ad9ae27.css.map",
-    "main.41af8b87.js.map": "/SoftwarePortfolio/static/js/main.41af8b87.js.map",
+    "main.d8464244.js.map": "/SoftwarePortfolio/static/js/main.d8464244.js.map",
     "933.7a5d2ec7.chunk.js.map": "/SoftwarePortfolio/static/js/933.7a5d2ec7.chunk.js.map",
     "89.784b32af.chunk.js.map": "/SoftwarePortfolio/static/js/89.784b32af.chunk.js.map",
     "982.1f1976f0.chunk.js.map": "/SoftwarePortfolio/static/js/982.1f1976f0.chunk.js.map",
@@ -79,6 +79,6 @@
   },
   "entrypoints": [
     "static/css/main.5ad9ae27.css",
-    "static/js/main.41af8b87.js"
+    "static/js/main.d8464244.js"
   ]
 }
