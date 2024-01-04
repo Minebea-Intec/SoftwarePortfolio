@@ -362,7 +362,7 @@ button.k-input-button.k-button.k-icon-button.k-button-md.k-button-solid.k-button
   .detail-close-button {
     border: unset;
     background: transparent;
-    left: calc(100dvw - 52px);
+    left: calc(100dvw - 42px);
     position: absolute;
     transform: translateY(-5px);
   }
