@@ -1,0 +1,26 @@
+[
+  {
+    "path": "#",
+    "text": "PC-Tools",
+    "icon": "",
+    "expandableMenuItems": [
+      {
+        "id": "IndicatorBrowser2",
+        "to": "{config.BASE_URL}/IndicatorBrowser2",
+        "text": "IndicatorBrowser2"
+      }
+    ]
+  },
+  {
+    "path": "#",
+    "text": "Test menu",
+    "icon": "file",
+    "expandableMenuItems": [
+      {
+        "id": "Software",
+        "to": "{config.BASE_URL}/Software",
+        "text": "Software"
+      }
+    ]
+  }
+]

@@ -54,33 +54,7 @@
     </component>
   </metadata>
   <components>
-    <component type="library" bom-ref="BomRef.f6e9177kn2g.v5q636ropko">
-      <author>Titus Wormer</author>
-      <name>hastscript</name>
-      <version>8.0.0</version>
-      <description>hast utility to create trees</description>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:npm/hastscript@8.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hastscript.git</purl>
-      <externalReferences>
-        <reference type="issue-tracker">
-          <url>https://github.com/syntax-tree/hastscript/issues</url>
-          <comment>as detected from PackageJson property "bugs.url"</comment>
-        </reference>
-        <reference type="vcs">
-          <url>git+https://github.com/syntax-tree/hastscript.git</url>
-          <comment>as detected from PackageJson property "repository.url"</comment>
-        </reference>
-        <reference type="website">
-          <url>https://github.com/syntax-tree/hastscript#readme</url>
-          <comment>as detected from PackageJson property "homepage"</comment>
-        </reference>
-      </externalReferences>
-    </component>
-    <component type="library" bom-ref="BomRef.t8t99ld49co.qbhdj0qo9ag">
+    <component type="library" bom-ref="BomRef.gkcebsek7jg.qsftuqfmfg8">
       <author>Titus Wormer</author>
       <name>hast-util-parse-selector</name>
       <version>4.0.0</version>
@@ -102,6 +76,32 @@
         </reference>
         <reference type="website">
           <url>https://github.com/syntax-tree/hast-util-parse-selector#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="BomRef.jc7f00ru728.sru3ahu6pc8">
+      <author>Titus Wormer</author>
+      <name>hastscript</name>
+      <version>8.0.0</version>
+      <description>hast utility to create trees</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hastscript@8.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hastscript.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/syntax-tree/hastscript/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/syntax-tree/hastscript.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/syntax-tree/hastscript#readme</url>
           <comment>as detected from PackageJson property "homepage"</comment>
         </reference>
       </externalReferences>
@@ -5642,13 +5642,13 @@
     </component>
   </components>
   <dependencies>
-    <dependency ref="BomRef.f6e9177kn2g.v5q636ropko">
-      <dependency ref="BomRef.t8t99ld49co.qbhdj0qo9ag"/>
+    <dependency ref="BomRef.gkcebsek7jg.qsftuqfmfg8"/>
+    <dependency ref="BomRef.jc7f00ru728.sru3ahu6pc8">
+      <dependency ref="BomRef.gkcebsek7jg.qsftuqfmfg8"/>
       <dependency ref="pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
     </dependency>
-    <dependency ref="BomRef.t8t99ld49co.qbhdj0qo9ag"/>
     <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
     <dependency ref="pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"/>
     <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.58">
@@ -5876,7 +5876,7 @@
       <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
     </dependency>
     <dependency ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git">
-      <dependency ref="BomRef.f6e9177kn2g.v5q636ropko"/>
+      <dependency ref="BomRef.jc7f00ru728.sru3ahu6pc8"/>
       <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"/>
