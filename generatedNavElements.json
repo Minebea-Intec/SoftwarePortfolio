@@ -2,7 +2,7 @@
   {
     "path": "#",
     "text": "PC-Tools",
-    "icon": "",
+    "icon": "file",
     "expandableMenuItems": [
       {
         "id": "IndicatorBrowser2",
