@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SoftwarePortfolio/static/css/main.9ebf24c9.css",
-    "main.js": "/SoftwarePortfolio/static/js/main.507be24c.js",
+    "main.css": "/SoftwarePortfolio/static/css/main.5a6336e5.css",
+    "main.js": "/SoftwarePortfolio/static/js/main.6a087f2f.js",
     "static/js/933.7a5d2ec7.chunk.js": "/SoftwarePortfolio/static/js/933.7a5d2ec7.chunk.js",
     "static/js/89.784b32af.chunk.js": "/SoftwarePortfolio/static/js/89.784b32af.chunk.js",
     "static/js/982.1f1976f0.chunk.js": "/SoftwarePortfolio/static/js/982.1f1976f0.chunk.js",
@@ -45,8 +45,8 @@
     "static/media/Inter-Regular.woff": "/SoftwarePortfolio/static/media/Inter-Regular.2e3d2d89837bafe0fcb2.woff",
     "static/media/InterWeight-500.otf": "/SoftwarePortfolio/static/media/InterWeight-500.c3b895e2a1ceab2d731d.otf",
     "index.html": "/SoftwarePortfolio/index.html",
-    "main.9ebf24c9.css.map": "/SoftwarePortfolio/static/css/main.9ebf24c9.css.map",
-    "main.507be24c.js.map": "/SoftwarePortfolio/static/js/main.507be24c.js.map",
+    "main.5a6336e5.css.map": "/SoftwarePortfolio/static/css/main.5a6336e5.css.map",
+    "main.6a087f2f.js.map": "/SoftwarePortfolio/static/js/main.6a087f2f.js.map",
     "933.7a5d2ec7.chunk.js.map": "/SoftwarePortfolio/static/js/933.7a5d2ec7.chunk.js.map",
     "89.784b32af.chunk.js.map": "/SoftwarePortfolio/static/js/89.784b32af.chunk.js.map",
     "982.1f1976f0.chunk.js.map": "/SoftwarePortfolio/static/js/982.1f1976f0.chunk.js.map",
@@ -78,7 +78,7 @@
     "533.fced9bdf.chunk.js.map": "/SoftwarePortfolio/static/js/533.fced9bdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ebf24c9.css",
-    "static/js/main.507be24c.js"
+    "static/css/main.5a6336e5.css",
+    "static/js/main.6a087f2f.js"
   ]
 }
