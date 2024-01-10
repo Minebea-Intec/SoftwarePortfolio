@@ -60,6 +60,86 @@ b {
   font-weight: 600;
 }
 
+.version-container {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: border 0.2s ease-in-out;
+}
+
+.version-text {
+  padding: 0 10px 0 10px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.version-container .version-text {
+  transition: height 0.2s ease-in-out;
+}
+
+button span.icon-up-dark {
+  pointer-events: none;
+}
+
+.markdown h3:hover ~ span.spinner::after {
+  background: #e3e7ea;
+}
+
+.show.version-container span.spinner {
+  pointer-events: none;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 18px;
+  right: 60px;
+  border-radius: 50%;
+  animation: spin 4s linear infinite;
+  background: radial-gradient(
+    circle,
+    transparent 0%,
+    transparent 50%,
+    #153d8a 60%,
+    #153d8a 100%
+  );
+}
+
+.show.version-container span.spinner::after {
+  content: "";
+  height: 3px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f7f7f7;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.version-container span.icon {
+  transform: scaleY(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.show.version-container span.icon {
+  transform: scaleY(-1);
+}
+
+.show.version-container {
+  border: 1px solid #d8dee4;
+  border-radius: 8px;
+}
+
+.show.version-container .version-text {
+  display: block;
+}
+
 /**
      *  There are 5 types of buttons with at least 3 different sizes.
      *  Here we'll define the light button in small

@@ -70,7 +70,7 @@
       "type": "library",
       "name": "hastscript",
       "version": "8.0.0",
-      "bom-ref": "BomRef.62929l3d51.06b2e5mb598",
+      "bom-ref": "BomRef.smka141orno.ud8qo5hbumo",
       "author": "Titus Wormer",
       "description": "hast utility to create trees",
       "licenses": [
@@ -103,7 +103,7 @@
       "type": "library",
       "name": "hast-util-parse-selector",
       "version": "4.0.0",
-      "bom-ref": "BomRef.fna8t6d15eo.3g3ulg4avbg",
+      "bom-ref": "BomRef.tjnlft1ck1g.rvunb0470c",
       "author": "Titus Wormer",
       "description": "hast utility to create an element from a simple CSS selector",
       "licenses": [
@@ -7162,16 +7162,16 @@
   ],
   "dependencies": [
     {
-      "ref": "BomRef.62929l3d51.06b2e5mb598",
+      "ref": "BomRef.smka141orno.ud8qo5hbumo",
       "dependsOn": [
-        "BomRef.fna8t6d15eo.3g3ulg4avbg",
+        "BomRef.tjnlft1ck1g.rvunb0470c",
         "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
       ]
     },
     {
-      "ref": "BomRef.fna8t6d15eo.3g3ulg4avbg"
+      "ref": "BomRef.tjnlft1ck1g.rvunb0470c"
     },
     {
       "ref": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
@@ -7592,7 +7592,7 @@
     {
       "ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
       "dependsOn": [
-        "BomRef.62929l3d51.06b2e5mb598",
+        "BomRef.smka141orno.ud8qo5hbumo",
         "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
