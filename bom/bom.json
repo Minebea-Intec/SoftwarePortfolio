@@ -68,42 +68,9 @@
   "components": [
     {
       "type": "library",
-      "name": "hastscript",
-      "version": "8.0.0",
-      "bom-ref": "BomRef.smka141orno.ud8qo5hbumo",
-      "author": "Titus Wormer",
-      "description": "hast utility to create trees",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "purl": "pkg:npm/hastscript@8.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hastscript.git",
-      "externalReferences": [
-        {
-          "url": "https://github.com/syntax-tree/hastscript/issues",
-          "type": "issue-tracker",
-          "comment": "as detected from PackageJson property \"bugs.url\""
-        },
-        {
-          "url": "git+https://github.com/syntax-tree/hastscript.git",
-          "type": "vcs",
-          "comment": "as detected from PackageJson property \"repository.url\""
-        },
-        {
-          "url": "https://github.com/syntax-tree/hastscript#readme",
-          "type": "website",
-          "comment": "as detected from PackageJson property \"homepage\""
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "hast-util-parse-selector",
       "version": "4.0.0",
-      "bom-ref": "BomRef.tjnlft1ck1g.rvunb0470c",
+      "bom-ref": "BomRef.2nrssb890pg.k56j75mmisg",
       "author": "Titus Wormer",
       "description": "hast utility to create an element from a simple CSS selector",
       "licenses": [
@@ -127,6 +94,39 @@
         },
         {
           "url": "https://github.com/syntax-tree/hast-util-parse-selector#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hastscript",
+      "version": "8.0.0",
+      "bom-ref": "BomRef.fihcv1dh10o.fv8o6emrs8",
+      "author": "Titus Wormer",
+      "description": "hast utility to create trees",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hastscript@8.0.0?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hastscript.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/syntax-tree/hastscript/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/syntax-tree/hastscript.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/syntax-tree/hastscript#readme",
           "type": "website",
           "comment": "as detected from PackageJson property \"homepage\""
         }
@@ -7162,16 +7162,16 @@
   ],
   "dependencies": [
     {
-      "ref": "BomRef.smka141orno.ud8qo5hbumo",
+      "ref": "BomRef.2nrssb890pg.k56j75mmisg"
+    },
+    {
+      "ref": "BomRef.fihcv1dh10o.fv8o6emrs8",
       "dependsOn": [
-        "BomRef.tjnlft1ck1g.rvunb0470c",
+        "BomRef.2nrssb890pg.k56j75mmisg",
         "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
       ]
-    },
-    {
-      "ref": "BomRef.tjnlft1ck1g.rvunb0470c"
     },
     {
       "ref": "pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
@@ -7592,7 +7592,7 @@
     {
       "ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
       "dependsOn": [
-        "BomRef.smka141orno.ud8qo5hbumo",
+        "BomRef.fihcv1dh10o.fv8o6emrs8",
         "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
