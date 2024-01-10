@@ -63,7 +63,7 @@ b {
 .version-container {
   margin-bottom: 12px;
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid #d8dee4;
   transition: border 0.2s ease-in-out;
 }
 
