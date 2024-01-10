@@ -140,6 +140,15 @@ button span.icon-up-dark {
   display: block;
 }
 
+.version-text > h1:last-child,
+.version-text > h2:last-child,
+.version-text > h3:last-child,
+.version-text > h4:last-child,
+.version-text > h5:last-child,
+.version-text > h6:last-child {
+  border-bottom: unset !important;
+}
+
 /**
      *  There are 5 types of buttons with at least 3 different sizes.
      *  Here we'll define the light button in small
