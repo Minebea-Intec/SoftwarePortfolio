@@ -768,21 +768,6 @@ tr > th:last-child .k-link {
   margin: unset;
 }
 
-/* .col-lg-6.col-sm-12.hmi-inner-content.split-view-right.parameter-page::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  display: block;
-  box-shadow: 0px 0px 5px 3px #f7f7f7;
-  left: 0;
-  border-bottom: 1px solid #979797;
-} */
-
-/* 
-label .l-right {
-  vertical-align: text-top !important;
-} */
-
 @media (min-width: 575.98px) {
   .inline-detail-view,
   .inline-table-of-contents {
@@ -936,4 +921,26 @@ tr.k-master-row:not(.k-alt) button span {
 }
 .pos-3 .summary-parameter {
   padding-left: 40px !important;
+}
+
+.impressum p {
+  margin-bottom: unset;
+  font-weight: 400;
+}
+
+.impressum button.impressum {
+  border: unset;
+  background: unset;
+  color: blue;
+  text-decoration: underline;
+}
+
+.impressum button.impressum:hover {
+  color: #153d8a;
+}
+
+.nav.flex-column:not(.submenu) > li.nav-item:last-child {
+  margin-top: auto;
+  border-bottom: transparent;
+  border-top: 2px solid #213966;
 }

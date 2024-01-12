@@ -54,7 +54,7 @@
     </component>
   </metadata>
   <components>
-    <component type="library" bom-ref="BomRef.ac751g28ji8.rlbi6m9d54g">
+    <component type="library" bom-ref="BomRef.57jq4b26dr8.athk1637luo">
       <author>Titus Wormer</author>
       <name>hastscript</name>
       <version>8.0.0</version>
@@ -80,7 +80,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="BomRef.o7kul7r1ngo.1rflk9637c8">
+    <component type="library" bom-ref="BomRef.lgpur9bec2.fumqa2fqtdg">
       <author>Titus Wormer</author>
       <name>hast-util-parse-selector</name>
       <version>4.0.0</version>
@@ -5642,13 +5642,13 @@
     </component>
   </components>
   <dependencies>
-    <dependency ref="BomRef.ac751g28ji8.rlbi6m9d54g">
-      <dependency ref="BomRef.o7kul7r1ngo.1rflk9637c8"/>
+    <dependency ref="BomRef.57jq4b26dr8.athk1637luo">
+      <dependency ref="BomRef.lgpur9bec2.fumqa2fqtdg"/>
       <dependency ref="pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
     </dependency>
-    <dependency ref="BomRef.o7kul7r1ngo.1rflk9637c8"/>
+    <dependency ref="BomRef.lgpur9bec2.fumqa2fqtdg"/>
     <dependency ref="pkg:npm/%40babel/runtime@7.23.5?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
     <dependency ref="pkg:npm/%40braintree/sanitize-url@6.0.4?vcs_url=git%2Bhttps%3A//github.com/braintree/sanitize-url.git"/>
     <dependency ref="pkg:npm/%40minebea/hmi@1.1.0-alpha.58">
@@ -5876,7 +5876,7 @@
       <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
     </dependency>
     <dependency ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git">
-      <dependency ref="BomRef.ac751g28ji8.rlbi6m9d54g"/>
+      <dependency ref="BomRef.57jq4b26dr8.athk1637luo"/>
       <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"/>
