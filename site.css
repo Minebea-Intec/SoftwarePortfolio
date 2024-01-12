@@ -123,12 +123,12 @@ button span.icon-up-dark {
 }
 
 .version-container span.icon {
-  transform: scaleY(1);
+  transform: scaleY(-1);
   transition: transform 0.2s ease-in-out;
 }
 
 .show.version-container span.icon {
-  transform: scaleY(-1);
+  transform: scaleY(1);
 }
 
 .show.version-container {
@@ -923,19 +923,19 @@ tr.k-master-row:not(.k-alt) button span {
   padding-left: 40px !important;
 }
 
-.impressum p {
+.imprint p {
   margin-bottom: unset;
   font-weight: 400;
 }
 
-.impressum button.impressum {
+.imprint button.imprint {
   border: unset;
   background: unset;
   color: blue;
   text-decoration: underline;
 }
 
-.impressum button.impressum:hover {
+.imprint button.imprint:hover {
   color: #153d8a;
 }
 
