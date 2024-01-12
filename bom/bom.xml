@@ -54,7 +54,7 @@
     </component>
   </metadata>
   <components>
-    <component type="library" bom-ref="BomRef.jitojlf5688.srbmuvvc4k8">
+    <component type="library" bom-ref="BomRef.sg6gs77h05g.a1rp2ssd6dg">
       <author>Titus Wormer</author>
       <name>hast-util-parse-selector</name>
       <version>4.0.0</version>
@@ -80,7 +80,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="BomRef.mf9v6m26sqg.omddh4ks1k">
+    <component type="library" bom-ref="BomRef.sv4oja2hr8g.1mu74efa2f">
       <author>Titus Wormer</author>
       <name>hastscript</name>
       <version>8.0.0</version>
@@ -5642,9 +5642,9 @@
     </component>
   </components>
   <dependencies>
-    <dependency ref="BomRef.jitojlf5688.srbmuvvc4k8"/>
-    <dependency ref="BomRef.mf9v6m26sqg.omddh4ks1k">
-      <dependency ref="BomRef.jitojlf5688.srbmuvvc4k8"/>
+    <dependency ref="BomRef.sg6gs77h05g.a1rp2ssd6dg"/>
+    <dependency ref="BomRef.sv4oja2hr8g.1mu74efa2f">
+      <dependency ref="BomRef.sg6gs77h05g.a1rp2ssd6dg"/>
       <dependency ref="pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"/>
@@ -5876,7 +5876,7 @@
       <dependency ref="pkg:npm/vfile@6.0.1?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile.git"/>
     </dependency>
     <dependency ref="pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git">
-      <dependency ref="BomRef.mf9v6m26sqg.omddh4ks1k"/>
+      <dependency ref="BomRef.sv4oja2hr8g.1mu74efa2f"/>
       <dependency ref="pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git"/>
       <dependency ref="pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git"/>
       <dependency ref="pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git"/>
