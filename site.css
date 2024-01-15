@@ -91,7 +91,7 @@ button span.icon-up-dark {
   width: 16px;
   position: absolute;
   top: 18px;
-  right: 60px;
+  right: 74px;
   border-radius: 50%;
   animation: spin 4s linear infinite;
   background: radial-gradient(
@@ -111,6 +111,7 @@ button span.icon-up-dark {
   top: 50%;
   transform: translateY(-50%);
   background: #f7f7f7;
+  transition: background 0.2s ease-in-out;
 }
 
 @keyframes spin {
@@ -122,12 +123,12 @@ button span.icon-up-dark {
   }
 }
 
-.version-container span.icon {
+.version-container span.icon-up-dark {
   transform: scaleY(-1);
   transition: transform 0.2s ease-in-out;
 }
 
-.show.version-container span.icon {
+.show.version-container span.icon-up-dark {
   transform: scaleY(1);
 }
 
@@ -147,6 +148,18 @@ button span.icon-up-dark {
 .version-text > h5:last-child,
 .version-text > h6:last-child {
   border-bottom: unset !important;
+}
+
+div.version.download {
+  pointer-events: all;
+  padding: unset;
+  border-radius: 4px;
+  background: transparent;
+  transition: background 0.2s ease-in-out;
+}
+
+div.version.download:hover {
+  background: #d8dee4;
 }
 
 .imprint h3 {
