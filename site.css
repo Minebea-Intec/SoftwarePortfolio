@@ -149,6 +149,10 @@ button span.icon-up-dark {
   border-bottom: unset !important;
 }
 
+.imprint h3 {
+  margin-top: 1rem;
+}
+
 /**
      *  There are 5 types of buttons with at least 3 different sizes.
      *  Here we'll define the light button in small
