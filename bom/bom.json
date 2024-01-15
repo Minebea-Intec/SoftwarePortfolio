@@ -70,7 +70,7 @@
       "type": "library",
       "name": "hast-util-parse-selector",
       "version": "4.0.0",
-      "bom-ref": "BomRef.6a7pcfgnsvg.jn3nf1hggh",
+      "bom-ref": "BomRef.etp4fdlv6jo.ct2693f2198",
       "author": "Titus Wormer",
       "description": "hast utility to create an element from a simple CSS selector",
       "licenses": [
@@ -103,7 +103,7 @@
       "type": "library",
       "name": "hastscript",
       "version": "8.0.0",
-      "bom-ref": "BomRef.87afvqqsel8.dh88puv7ql",
+      "bom-ref": "BomRef.vblbq68qsf.ar3jdl96vko",
       "author": "Titus Wormer",
       "description": "hast utility to create trees",
       "licenses": [
@@ -7162,12 +7162,12 @@
   ],
   "dependencies": [
     {
-      "ref": "BomRef.6a7pcfgnsvg.jn3nf1hggh"
+      "ref": "BomRef.etp4fdlv6jo.ct2693f2198"
     },
     {
-      "ref": "BomRef.87afvqqsel8.dh88puv7ql",
+      "ref": "BomRef.vblbq68qsf.ar3jdl96vko",
       "dependsOn": [
-        "BomRef.6a7pcfgnsvg.jn3nf1hggh",
+        "BomRef.etp4fdlv6jo.ct2693f2198",
         "pkg:npm/comma-separated-tokens@2.0.3?vcs_url=git%2Bhttps%3A//github.com/wooorm/comma-separated-tokens.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/space-separated-tokens@2.0.2?vcs_url=git%2Bhttps%3A//github.com/wooorm/space-separated-tokens.git"
@@ -7592,7 +7592,7 @@
     {
       "ref": "pkg:npm/hast-util-from-parse5@8.0.1?vcs_url=git%2Bhttps%3A//github.com/syntax-tree/hast-util-from-parse5.git",
       "dependsOn": [
-        "BomRef.87afvqqsel8.dh88puv7ql",
+        "BomRef.vblbq68qsf.ar3jdl96vko",
         "pkg:npm/devlop@1.1.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/devlop.git",
         "pkg:npm/property-information@6.4.0?vcs_url=git%2Bhttps%3A//github.com/wooorm/property-information.git",
         "pkg:npm/vfile-location@5.0.2?vcs_url=git%2Bhttps%3A//github.com/vfile/vfile-location.git",
